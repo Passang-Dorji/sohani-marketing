@@ -135,7 +135,7 @@ export default function Hero() {
 								Explore Products
 							</motion.a>
 							<motion.a
-								href="https://wa.me/+97577289909"
+								href="https://wa.me/+97517845563"
 								target="_blank"
 								rel="noopener noreferrer"
 								whileHover={{ scale: 1.05 }}
