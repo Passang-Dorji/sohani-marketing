@@ -144,7 +144,7 @@ export default function Testimonials() {
             Ready to experience the Sohani Clean difference?
           </p>
           <motion.a
-            href="https://wa.me/1234567890?text=Hi! I want to order Sohani Clean products."
+            href="https://wa.me/+97517845563?text=Hi! I want to order Sohani Clean products."
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
