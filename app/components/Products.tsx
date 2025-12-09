@@ -226,7 +226,7 @@ export default function Products() {
 							product for your needs.
 						</p>
 						<motion.a
-							href="https://wa.me/1234567890?text=Hi! I need help choosing the right detergent."
+							href="https://wa.me/+97517845563?text=Hi! I need help choosing the right detergent."
 							target="_blank"
 							rel="noopener noreferrer"
 							whileHover={{ scale: 1.05 }}

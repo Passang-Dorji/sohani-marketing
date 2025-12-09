@@ -152,7 +152,7 @@ export default function Header() {
 								))}
 								<div className="flex items-center gap-4 pt-4 border-t">
 									<a
-										href="https://wa.me/1234567890"
+										href="https://wa.me/+97517845563"
 										target="_blank"
 										rel="noopener noreferrer"
 										className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white"
