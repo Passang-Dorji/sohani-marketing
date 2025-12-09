@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -65,7 +65,7 @@ export default function Header() {
 					{/* Social Links & CTA */}
 					<div className="hidden md:flex items-center gap-4">
 						<motion.a
-							href="https://wa.me/+97577289909"
+							href="https://wa.me/+97517845563"
 							target="_blank"
 							rel="noopener noreferrer"
 							whileHover={{ scale: 1.1, rotate: 5 }}
@@ -140,15 +140,19 @@ export default function Header() {
 						>
 							<div className="py-4 space-y-3">
 								{navLinks.map((link) => (
-									<motion.a
+									<Link
 										key={link.name}
 										href={link.href}
-										whileHover={{ x: 10 }}
 										onClick={() => setIsOpen(false)}
-										className="block py-2 text-gray-700 font-medium hover:text-sky-500"
 									>
-										{link.name}
-									</motion.a>
+										<motion.span
+											whileHover={{ x: 10 }}
+											whileTap={{ x: 10 }}
+											className="block py-2 text-gray-700 font-medium hover:text-sky-500"
+										>
+											{link.name}
+										</motion.span>
+									</Link>
 								))}
 								<div className="flex items-center gap-4 pt-4 border-t">
 									<a
